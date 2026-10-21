@@ -7,6 +7,11 @@ from .nodes.image_pad_outpaint import (
     NODE_DISPLAY_NAME_MAPPINGS as PAD_NAMES,
 )
 
+from .nodes.output_video_loader import (
+    NODE_CLASS_MAPPINGS as PAD_CLASS,
+    NODE_DISPLAY_NAME_MAPPINGS as PAD_NAMES,
+)
+
 NODE_CLASS_MAPPINGS = {**CROP_CLASS, **PAD_CLASS}
 NODE_DISPLAY_NAME_MAPPINGS = {**CROP_NAMES, **PAD_NAMES}
 
